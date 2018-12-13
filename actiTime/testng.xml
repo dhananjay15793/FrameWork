@@ -1,0 +1,14 @@
+<suite name="AutomationSuite" parallel="none">
+  <test name="TestChrome">
+   <parameter name="browser" value="chrome"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+  <test name="TestFirefox">
+   <parameter name="browser" value="firefox"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite>
