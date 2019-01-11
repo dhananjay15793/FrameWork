@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="script.InvalidLogin">
+      <class name="script.FbLogin">
         <methods>
-          <include name="testInvalidLogin"/>
+          <include name="testFbLogin"/>
           <include name="openApp"/>
           <include name="initFrameWork"/>
           <include name="closeApp"/>
         </methods>
-      </class> <!-- script.InvalidLogin -->
+      </class> <!-- script.FbLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

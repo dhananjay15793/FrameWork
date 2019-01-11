@@ -22,7 +22,7 @@ import org.testng.annotations.Parameters;
 	
 	@BeforeSuite
 	public void initFrameWork(){
-		System.setProperty(CHROME_KEY,CHROME_VALUE);
+		System.setProperty(CHROME_KEY,CHROME_VALUE_LINUX);
 		System.setProperty(GECKO_KEY,GECKO_VALUE);
 	}
 	
